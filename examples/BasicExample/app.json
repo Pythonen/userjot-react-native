@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "BasicExample",
+    "slug": "basic-example",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
