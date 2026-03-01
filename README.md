@@ -2,7 +2,7 @@
 
 > **Beta Notice**: This SDK is currently in beta (v0.3.0). The API may change before the 1.0 release.
 
-> **NB**: This SDK is a 'mirror' from [UserJot Swift SDK](https://github.com/UserJot/userjot-ios/tree/main)
+> **NB**: This SDK is a 'mirror' from [UserJot Swift SDK](https://github.com/UserJot/userjot-ios/tree/main). This is unofficial package, and maintained by the community.
 
 A React Native SDK for integrating [UserJot](https://userjot.com) feedback, roadmap, and changelog widgets into your mobile applications.
 

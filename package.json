@@ -24,6 +24,10 @@
     "changelog",
     "widget"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pythonen/userjot-react-native.git"
+  },
   "license": "MIT",
   "peerDependencies": {
     "react": ">=17.0.0",
