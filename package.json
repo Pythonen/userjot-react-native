@@ -1,6 +1,6 @@
 {
   "name": "userjot-react-native",
-  "version": "1.0.0",
+  "version": "0.3.0",
   "description": "UserJot SDK for React Native — feedback, roadmap, and changelog widgets",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
