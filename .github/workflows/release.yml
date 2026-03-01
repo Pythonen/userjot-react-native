@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write # Required for OIDC
+  contents: read
+
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
@@ -23,6 +27,9 @@ jobs:
           registry-url: https://registry.npmjs.org
 
       - run: npm ci
+      - run: npm run build --if-present
+      - run: npm test
+      - run: npm publish
 
       - name: Create release PR or publish
         uses: changesets/action@v1
